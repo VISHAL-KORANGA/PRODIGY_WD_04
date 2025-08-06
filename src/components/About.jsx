@@ -64,7 +64,7 @@ const About = () => {
   const downloadResume = () => {
     // In a real app, this would download the actual resume file
     const link = document.createElement('a');
-    link.href = '/resume.pdf';
+    link.href = 'https://drive.google.com/file/d/1_Xwl_zRwqDC7R34kPm49W_JYNAOBve7N/view?usp=sharing';
     link.download = 'Vishal_Singh_Koranga_Resume.pdf';
     link.click();
   };
